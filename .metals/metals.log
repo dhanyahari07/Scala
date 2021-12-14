@@ -26540,3 +26540,6 @@ Caused by: java.lang.IllegalArgumentException: 26 is not a valid line number, al
 [0m2021.12.14 13:43:32 WARN  no build target for: /home/dhanyaharish/Documents/GitHub/Scala/hello-world/if_else.scala[0m
 Dec 14, 2021 1:43:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2021.12.14 13:47:14 WARN  no build target for: /home/dhanyaharish/Documents/GitHub/Scala/basic-scala/match_expression.scala[0m
+[0m2021.12.14 13:47:14 WARN  no build target for: /home/dhanyaharish/Documents/GitHub/Scala/basic-scala/if_else.scala[0m
+[0m2021.12.14 13:47:14 WARN  no build target for: /home/dhanyaharish/Documents/GitHub/Scala/basic-scala/loops.scala[0m
