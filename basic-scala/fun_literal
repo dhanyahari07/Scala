@@ -1,0 +1,33 @@
+object HelloWorld {
+    
+
+   val f2 = (x:Int) => {x+5} 
+   
+   val f = (x:Int) => {x+5} : Int
+   
+   val f1 :Int =>Int = (x:Int) => {x+5}
+   
+   val myFun:(Int, String)=>String = (x:Int, y:String)=> {y+x+y}:String
+   
+   val myFun1 =(x:Int, y:String)=>y+x+y
+    
+   def main(args: Array[String]) {
+      println("Hello, world!")
+      
+      val s ="hello world"
+      val i=10
+      val l : Long = 5
+      val l1=5:Long
+      
+      val x=f(5)+2
+      println(x)
+      
+      println(f(5))
+      println(f1(5))
+      
+      println(myFun(5,"@"))
+      println(myFun1(5,"-"))
+   }
+   
+   
+}

@@ -1,0 +1,18 @@
+object HelloWorld {
+    
+    //closere uses one or more variable outside the fn
+    var number = 10
+    val add =(x:Int) => x+10
+    val add1 =(x:Int) => x+number
+    val add2 =(x:Int) => {
+        number=x+number
+        number
+    }
+    def main(args: Array[String]) {
+        number = 100;
+        println(add2(20))
+        println(number)
+      
+
+   }
+}

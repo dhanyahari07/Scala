@@ -45,5 +45,12 @@ object Demo{
             i*i
         }
         println("result" + result)
+
+        // for loop with multiple ranges
+        for( w <- 0 to 3; z<- 8 until 10 )
+        {
+            println("Value of w is :" +w);
+            println("Value of y is :" +z);
+        }
     }
 }
